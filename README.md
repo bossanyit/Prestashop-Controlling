@@ -17,7 +17,3 @@
 #
 # @author    Tibor Bossanyi
 # @contact   tibor.bossanyi@gmail.com
-<<<<<<< HEAD
-
-=======
->>>>>>> 89e7f08ea870671dfd44c2b9c2299aadab882711

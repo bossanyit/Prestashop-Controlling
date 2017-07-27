@@ -1,0 +1,45 @@
+.source_form {
+    border:1px solid #C7D6DB;
+    border-radius:8px;
+    -webkit-transition:border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    -o-transition:border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    transition:border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+}
+
+.sourcestep input[type="text"], select {
+    width: 90% !important;
+    margin: 2px 8px 2px 8px;
+}
+
+.sourcestep label {
+    display: initial !important;
+    width: 30px;
+    font-weight: normal;
+    margin: 1px 1px 1px 8px;    
+}
+
+#sourceinfo {
+    padding: 12px 12px 12px 12px;
+    border:1px solid #C7D6DB;
+    border-radius:8px;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.sourcestep {
+    padding: 2px 2px 2px 2px;
+    border:1px solid #bf4230;
+    border-radius:8px;
+    width: 18%;
+    float: left;
+    margin-right: 5px;
+}
+
+#step_description {
+    padding: 3px 5px 5px 8px;
+    height: 50px;
+    
+}
+.utm2, .utm4 {
+    display:none;
+}

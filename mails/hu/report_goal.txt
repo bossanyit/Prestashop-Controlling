@@ -1,0 +1,7 @@
+﻿Hi,
+
+Daily report - ads
+
+Placed on : {date}
+
+{items}

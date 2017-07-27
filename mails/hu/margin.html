@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Termékek beszerzési ár nélkül</title>
+</head>
+<body>
+	<table style="font-family: &#039;Helvetica Neue&#039;, &#039;Helvetica&#039;, Helvetica, Tahoma, sans-serif; width: 100%; background-color: #fff; padding: 0; font-size: 12px; color: #787878;">
+<tbody>
+<tr>
+<td>
+<table style="width: 100%; padding: 0;">
+<tbody>
+<tr>
+<td style="display: block !important; max-width: 580px !important; clear: both !important; margin: 0 auto; padding: 0;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<table style="width: 100%; padding: 0; background: {emailconf_w_bg}; color: {emailconf_w_color};">
+<tbody>
+<tr>
+<td style="display: block !important; max-width: 580px !important; clear: both !important; margin: 0 auto; padding: 0;">
+<div style="max-width: 580px; display: block; margin: 0 auto;">
+<table style="width: 100%; padding-top: 30px; padding-bottom: 30px;">
+<tbody>
+<tr>
+<td style="text-align: left; padding-bottom: 5px; font-size: 20px;"><strong style="color: {emailconf_w_head_color};">Kedves {lastname} {firstname}! </strong></td>
+</tr>
+<tr>
+<td style="text-align: left; font-size: 14px;">K&ouml;sz&ouml;nj&uuml;k a v&aacute;s&aacute;rl&aacute;st az <strong>{shop_name}n&aacute;l.</strong>!</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table style="width: 100%; padding: 30px 0;">
+<tbody>
+<tr>
+<td style="display: block !important; max-width: 580px !important; clear: both !important; margin: 0 auto; padding: 0;">
+<div style="max-width: 580px; display: block; margin: 0 auto;">
+<table style="max-width: 580px !important; background-color: #ffffff; color: {emailconf_c_text};" align="left">
+<tbody>
+<tr>
+<td align="left">Megrendel&eacute;s: <strong><span style="color: {emailconf_c_color};">{order_name}</span> D&aacute;tum: {date}</strong> <br />Fizet&eacute;si m&oacute;d: <strong>{payment}</strong></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align="left">
+<table style="width: 100%; font-size: 11px; color: #374953;"><!-- Title -->
+<tbody>
+<tr style="background-color: {emailconf_c_color}; text-align: center;"><th style="width: 15%; padding: 0.6em 0; background-color: #dde2e6;">&nbsp;</th><th style="width: 30%; padding: 0.6em 0; background-color: #dde2e6;">Term&eacute;k</th><th style="width: 20%; padding: 0.6em 0; background-color: #dde2e6;">Egys&eacute;g&aacute;r</th><th style="width: 15%; padding: 0.6em 0; background-color: #dde2e6;">Mennyis&eacute;g</th><th style="width: 20%; padding: 0.6em 0; background-color: #dde2e6;">&Ouml;sszesen</th></tr>
+<tr style="background-color: #fcfcfc;">
+<td style="background-color: #ebecee;" colspan="5">{products}</td>
+</tr>
+<tr style="background-color: #ebecee;">
+<td style="background-color: #fcfcfc;" colspan="5">{discounts}</td>
+</tr>
+<tr style="text-align: right;">
+<td style="background-color: #ebecee; padding: 0.6em 0.4em;" colspan="4">Term&eacute;kek</td>
+<td style="background-color: #ebecee; padding: 0.6em 0.4em;">{total_products}</td>
+</tr>
+<tr style="text-align: right;">
+<td style="background-color: #ebecee; padding: 0.6em 0.4em;" colspan="4">Kedvezm&eacute;ny</td>
+<td style="background-color: #ebecee; padding: 0.6em 0.4em;">{total_discounts}</td>
+</tr>
+<tr style="text-align: right;">
+<td style="background-color: #ebecee; padding: 0.6em 0.4em;" colspan="4">Aj&aacute;nd&eacute;k</td>
+<td style="background-color: #ebecee; padding: 0.6em 0.4em;">{total_wrapping}</td>
+</tr>
+<tr style="text-align: right;">
+<td style="background-color: #ebecee; padding: 0.6em 0.4em;" colspan="4">Sz&aacute;ll&iacute;t&aacute;s</td>
+<td style="background-color: #ebecee; padding: 0.6em 0.4em;">{total_shipping}</td>
+</tr>
+<tr style="text-align: right; font-weight: bold;">
+<td style="background-color: #ebecee; padding: 0.6em 0.4em;" colspan="4">&nbsp;</td>
+<td style="background-color: #ebecee; padding: 0.6em 0.4em;">&nbsp;</td>
+</tr>
+<tr style="text-align: right; font-weight: bold;">
+<td style="background-color: #dde2e6; padding: 0.6em 0.4em;" colspan="4">&Ouml;sszesen</td>
+<td style="background-color: #dde2e6; padding: 0.6em 0.4em;">{total_paid}</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td style="font-size: 12px; font-weight: bold; padding: 0.5em 1em;" align="left">Sz&aacute;ll&iacute;t&aacute;si m&oacute;d:&nbsp;<strong>{carrier}</strong></td>
+</tr>
+<tr>
+<td>
+<table style="width: 100%; font-size: 11px;">
+<tbody>
+<tr style="background-color: #dde2e6; text-transform: uppercase;"><th style="text-align: left; padding: 0.3em 1em;">Sz&aacute;ll&iacute;t&aacute;si c&iacute;m</th><th style="text-align: left; padding: 0.3em 1em;">Sz&aacute;ml&aacute;z&aacute;si c&iacute;m</th></tr>
+<tr>
+<td style="padding: 0.5em 0 0.5em 0.5em; background-color: #ebecee;">{delivery_block_html}</td>
+<td style="padding: 0.5em 0 0.5em 0.5em; background-color: #ebecee;">{invoice_block_html}</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align="left">A rendel&eacute;sed megn&eacute;zheted &eacute;s a sz&aacute;ml&aacute;t let&ouml;ltheted, ha ide kattintasz: <a style="color: {emailconf_c_color}; font-weight: bold; text-decoration: none;" href="{history_url}">"R&eacute;szletek"</a>, vagy a fi&oacute;kodb&oacute;l: <a style="color: {emailconf_c_color}; font-weight: bold; text-decoration: none;" href="{my_account_url}">"Rendel&eacute;si előzm&eacute;nyek &eacute;s r&eacute;szletek "</a>.<br /><br /></td>
+</tr>
+<tr>
+<td align="left">Ha m&eacute;g nem regisztr&aacute;lt&aacute;l a web&aacute;ruh&aacute;zba, akkor a rendel&eacute;sed itt tudod k&ouml;vetni: <a style="color: {emailconf_c_color}; font-weight: bold; text-decoration: none;" href="{guest_tracking_url}">"Vend&eacute;grendel&eacute;s"</a>.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table style="width: 100%; padding: 0; background: {emailconf_f_bg};">
+<tbody>
+<tr>
+<td style="display: block !important; max-width: 580px !important; clear: both !important; margin: 0 auto; padding: 0;">
+<div style="max-width: 580px; display: block; margin: 0 auto;">
+<table style="width: 100%; padding-top: 30px; padding-bottom: 30px; color: {emailconf_f_color};">
+<tbody>
+<tr>
+<td class="left_col" style="text-align: left; width: 46%; padding-right: 2%;" valign="top">
+<h2 style="border-bottom: 1px solid #CECECE; color: {emailconf_f_head_color}; font-weight: normal; font-size: 14px; margin: 0px 0px 10px 0px; padding: 0px 0px 10px 0px;">&nbsp;</h2>
+</td>
+<td class="right_col" style="text-align: left; width: 46%; padding-left: 2%;" valign="top">
+<h2 style="border-bottom: 1px solid #CECECE; color: {emailconf_f_head_color}; font-weight: normal; font-size: 14px; margin: 0px 0px 10px 0px; padding: 0px 0px 10px 0px;">&nbsp;</h2>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table style="width: 100%; padding: 0;">
+<tbody>
+<tr>
+<td style="display: block !important; max-width: 580px !important; clear: both !important; margin: 0 auto; padding: 0;">
+<div style="max-width: 580px; display: block; margin: 0 auto;">
+<table style="width: 100%; padding-top: 10px;">
+<tbody>
+<tr>
+<td class="left_col copyrights" style="text-align: left; width: 49%; margin-right: 2%;">&nbsp;</td>
+<td class="right_col socials" style="text-align: right; width: 49%;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

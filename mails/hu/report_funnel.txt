@@ -1,0 +1,7 @@
+﻿Hi,
+
+Funnel
+
+Placed on : {date}
+
+{items}
